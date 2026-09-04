@@ -1,5 +1,5 @@
 
-# Brain Agriculture - Front-End Panel (Teste Técnico)
+# Brain - Front-End Panel (Teste Técnico)
 
 Este é o repositório do painel administrativo (Front-End) desenvolvido para o teste técnico da **Brain Agriculture** criado por **Tiago honorio**. A aplicação consiste que permite gerenciar produtores rurais, suas propriedades e as respectivas culturas plantadas por safra, além de fornecer um painel analítico com indicadores e gráficos consolidados.
 
