@@ -1,12 +1,12 @@
 
-# Brain Agriculture - Front-End Panel (Teste Técnico v2)
+# Brain Agriculture - Front-End Panel (Teste Técnico)
 
-Este é o repositório do painel administrativo (Front-End) desenvolvido para o teste técnico da **Brain Agriculture**. A aplicação consiste em um ecossistema completo de monitoramento agrícola que permite gerenciar produtores rurais, suas propriedades e as respectivas culturas plantadas por safra, além de fornecer um painel analítico em tempo real com indicadores e gráficos consolidados.
+Este é o repositório do painel administrativo (Front-End) desenvolvido para o teste técnico da **Brain Agriculture** criado por **Tiago honorio**. A aplicação consiste que permite gerenciar produtores rurais, suas propriedades e as respectivas culturas plantadas por safra, além de fornecer um painel analítico com indicadores e gráficos consolidados.
 
 ## 🚀 Objetivo do Projeto
 
 O objetivo principal é atender aos requisitos de negócio e critérios de avaliação do desafio técnico para a vaga de desenvolvedor fullstack, garantindo:
-- **Interface Administrativa:** Um layout moderno, limpo, responsivo e fluido com menu lateral fixo e cabeçalho superior.
+- **Interface Administrativa:** Um layout limpo, responsivo e fluido um template Admin.
 - **Painel Analítico (Dashboard):** Indicadores numéricos instantâneos e três gráficos no formato de pizza alimentados de forma dinâmica (sem repetição de cores) através de APIs de agregação do back-end.
 - **Gerenciamento de Cadastros (CRUD):** Lógica avançada de transferência de dados (*Upsert*) em modais reutilizáveis, permitindo adicionar, remover ou atualizar culturas agrícolas e transferir a propriedade de fazendas entre produtores de forma reativa.
 
@@ -14,7 +14,7 @@ O objetivo principal é atender aos requisitos de negócio e critérios de avali
 
 ## 🛠️ Tecnologias Utilizadas
 
-A arquitetura do front-end foi desenhada utilizando tecnologias modernas e de alta performance no mercado:
+A arquitetura do front-end foi desenhada utilizando tecnologias de alta performance no mercado:
 
 - **React.js (Vite):** Framework base utilizado pela velocidade de compilação em ambiente de desenvolvimento e otimização de build final.
 - **Bootstrap 5 & Bootstrap Icons:** Framework CSS estrutural para garantir um design profissional, responsivo, limpo e padronizado.
@@ -27,7 +27,7 @@ A arquitetura do front-end foi desenhada utilizando tecnologias modernas e de al
 
 ## 📂 Organização Arquitetural de Diretorias
 
-O projeto foi estruturado seguindo os padrões mais rígidos de governança e escalabilidade do React, separando responsabilidades:
+O projeto foi estruturado seguindo os padrões de governança e escalabilidade do React, separando responsabilidades:
 
 ```text
 src/
@@ -51,7 +51,7 @@ Siga as instruções abaixo para clonar o repositório e subir o ambiente local 
 ### 1. Clonar o Repositório
 Abra o seu terminal na pasta de preferência e execute o comando:
 ```bash
-git clone https://github.com
+git clone https://github.com/20100000/front-end_brain.git
 ```
 
 ### 2. Acessar o Diretério do Front-End
@@ -76,21 +76,8 @@ Assim que o terminal indicar que o Vite iniciou o servidor, abra o seu navegador
 ## 🔌 Requisito Prévio de Integração
 
 Para que os cards de métricas e os gráficos de pizza carreguem os dados corretamente na tela, certifique-se de que o **Back-End (API NestJS com PostgreSQL)** desenvolvido para este teste esteja rodando na mesma máquina na porta padrão **3000** (`http://localhost:3000`).
+para clanar o back-end Link: 🔗 **https://github.com/20100000/back-end_brain**
 
 ---
 
-## 🛠️ Comandos Úteis de Gerenciamento
 
-- **Derrubar o contêiner do Front-End:**
-  ```bash
-  docker compose down
-  ```
-- **Acompanhar os logs de renderização do contêiner em tempo real:**
-  ```bash
-  docker compose logs -f web
-  ```
-- **Forçar a reinstalação de pacotes limpando o cache de volumes:**
-  ```bash
-  docker compose down --volumes
-  docker compose up --build --force-recreate
-  ```
