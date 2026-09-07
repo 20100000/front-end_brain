@@ -71,7 +71,7 @@ export default function Farms() {
           arable_area: formData.arable_area,
           vegetation_area: formData.vegetation_area,
           harvest: formData.harvest,
-          crops: formattedCrops 
+          crops: formData.newCrops || []
         });
       } else {
         await farmService.create({
@@ -83,7 +83,7 @@ export default function Farms() {
           arable_area: formData.arable_area,
           vegetation_area: formData.vegetation_area,
           harvest: formData.harvest,
-          initial_crops: cropsArray
+          initial_crops: formData.newCrops || []
         });
       }
 

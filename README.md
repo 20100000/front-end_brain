@@ -1,7 +1,7 @@
 
 # Brain - Front-End Panel (Teste Técnico)
 
-Este é o repositório do painel administrativo (Front-End) desenvolvido para o teste técnico da **Brain Agriculture** criado por **Tiago honorio**. A aplicação consiste que permite gerenciar produtores rurais, suas propriedades e as respectivas culturas plantadas por safra, além de fornecer um painel analítico com indicadores e gráficos consolidados.
+Este é o repositório do painel administrativo (Front-End) desenvolvido para o teste técnico da **Brain** criado por **Tiago honorio**. A aplicação consiste que permite gerenciar produtores rurais, suas propriedades e as respectivas culturas plantadas por safra, além de fornecer um painel analítico com indicadores e gráficos consolidados.
 
 ## 🚀 Objetivo do Projeto
 
@@ -57,7 +57,7 @@ git clone https://github.com/20100000/front-end_brain.git
 ### 2. Acessar o Diretério do Front-End
 Entre na pasta do projeto front-end:
 ```bash
-cd brain-front
+cd front-end_brain
 ```
 
 ### 3. Iniciar a Aplicação via Docker
